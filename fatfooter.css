@@ -82,6 +82,8 @@ body{display: flex;
 
 
     .footer> section:nth-child(3){
+      display:flex;
+      flex-wrap: wrap;
       background-color: black;}
 
     .copy{margin:auto;
@@ -98,12 +100,13 @@ body{display: flex;
      .navbar{padding: 0;}        
    }
 
-   
+
 
    @media (min-width:950px) {
      .header{flex-direction: row;
       justify-content: space-between;}
      .navbar{padding: 0;}   
+     
     
    }
    
